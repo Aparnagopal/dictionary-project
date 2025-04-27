@@ -8,10 +8,10 @@ function App() {
       <div className="container">
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
-          Dictionary App
+          <h1>Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultkeyword="World" />
         </main>
         <footer className="App-footer">Coded by Aparna Gopalakrishnan</footer>
       </div>
