@@ -13,7 +13,17 @@ function App() {
         <main>
           <Dictionary defaultkeyword="World" />
         </main>
-        <footer className="App-footer">Coded by Aparna Gopalakrishnan</footer>
+        <footer className="App-footer">
+          Coded by Aparna Gopalakrishnan and is{" "}
+          <a
+            href="https://github.com/Aparnagopal/dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+            alt="GitHub Source"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     </div>
   );
